@@ -106,17 +106,17 @@
                       </div>
 
                       <div class="owl-carousel owl-theme">
-                        <!-- <div class="item">
+                        <div class="item">
                           <div class="project-info">
-                            <img src="images/project/project-image01.png" class="img-fluid" alt="project image">
+                            <img src="images/project/Screenshot (111).png" class="img-fluid" alt="project image">
                           </div>
-                        </div> -->
+                        </div>
 
-                        <!-- <div class="item">
+                        <div class="item">
                           <div class="project-info">
-                            <img src="images/project/project-image02.png" class="img-fluid" alt="project image">
+                            <img src="images/project/Screenshot (110).png" class="img-fluid" alt="project image">
                           </div>
-                        </div> -->
+                        </div>
 
                         <div class="item">
                           <div class="project-info">
@@ -197,25 +197,44 @@
                 <div class="col-lg-6 col-12">
                   <h2 class="mb-4 mobile-mt-2">Educations</h2>
 
-                    <div class="timeline">
                         <div class="timeline-wrapper">
-                             <div class="timeline-yr">
-                                  <span>2022</span>
-                             </div>
-                             <div class="timeline-info">
-                                  <h3><span>Node.js</span><small>currently basic level</small></h3>
-                                  <p>I Have buit an application using Node.js for server side</p>
-                             </div>
-                        </div>
+                          <div class="timeline-yr">
+                               <span>2022</span>
+                          </div>
+                          <div class="timeline-info">
+                               <h3><span>IoT and ML</span></h3><span>currently exploring</span>
+                               <p>I Have buit a plant monitor as my first project</p>
+                          </div>
+                     </div>
+
+                     <div class="timeline-wrapper">
+                      <div class="timeline-yr">
+                           <span>2022</span>
+                      </div>
+                      <div class="timeline-info">
+                           <h3><span>Cyber Security</span></h3><span>currently exploring</span>
+                           <p>Trying to make my projects follow OWASP rules and also exploring OSINT</p>
+                      </div>
+                 </div>
+                 <div class="timeline">
+                  <div class="timeline-wrapper">
+                       <div class="timeline-yr">
+                            <span>2022</span>
+                       </div>
+                       <div class="timeline-info">
+                            <h3><span>Node.js</span></h3>
+                            <p>I Have buit two applications using Node.js for server side</p>
+                       </div>
+                  </div>
 
                         <div class="timeline-wrapper">
                             <div class="timeline-yr">
                                 <span>2021</span>
                             </div>
                             <div class="timeline-info">
-                                <h3><span>ReactJS</span><small>Intermediate Level</small></h3>
+                                <h3><span>ReactJS</span></h3>
                                 <!-- <p><a rel="nofollow" href="https://www.facebook.com/tooplate">Tooplate</a> is a great website to download HTML templates without any login or email.</p> -->
-                                <p>I have built two application using ReactJS, Material UI to design front end</p>
+                                <p>I have built three application using ReactJS, Material UI to design front end</p>
                             </div>
                         </div>
                         
@@ -237,9 +256,9 @@
     </section>
 
     <!-- CONTACT -->
-    <section class="contact py-5" id="contact">
+    <!-- <section class="contact py-5" id="contact">
       <div class="container">
-        <div class="row">
+        <div class="row"> -->
           
           <!-- <div class="col-lg-5 mr-lg-5 col-12">
             <div class="google-map w-100">
@@ -258,12 +277,12 @@
                      <li><a href="#" class="uil uil-instagram" data-toggle="tooltip" data-placement="left" title="Instagram"></a></li>
                      <li><a href="#" class="uil uil-youtube" data-toggle="tooltip" data-placement="left" title="Youtube"></a></li>
                 </ul> -->
-            </div>
+            <!-- </div>
             <div class="col-lg-6 col-12">
               <div class="contact-form">
                 <h2 class="mb-4">Interested to work together? Let's talk</h2>
   
-                <form action="" method="get">
+                <form action="20b01a12g4@svecw.edu.in" method="post" enctype="text/plain">
                   <div class="row">
                     <div class="col-lg-6 col-12">
                       <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
@@ -278,19 +297,19 @@
                     </div>
   
                     <div class="ml-lg-auto col-lg-5 col-12">
-                      <input type="submit" class="form-control submit-btn" value="Send Button">
+                      <input type="submit" class="form-control submit-btn" value="Send Button" onclick="sendEmail()">
                     </div>
                   </div>
                 </form>
               </div>
             </div>
-          </div>
+          </div> -->
 
           
 
         </div>
-      </div>
-    </section>
+      <!-- </div>
+    </section> -->
 
     <!-- FOOTER -->
      <footer class="footer py-5">
@@ -313,6 +332,20 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/custom.js"></script>
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+<!-- <input type="button" value="Send Email" onclick="sendEmail()"> -->
+<!-- <script>
+function sendEmail() {
+	Email.send({
+    SecureToken : "<your generated token>",
+    To : 'recipient@example.com',
+    From : "sender@example.com",
+    Subject : "Test Email",
+    Body : "<html><h2>Header</h2><strong>Bold text</strong><br></br><em>Italic</em></html>"
+    }).then(
+        message => alert("mail sent successfully")
+    );
+}
+</script> -->
   </body>
 </html>
